@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.container1{
+    max-width: 1200px;
+    margin: 0 30px;
+}
+/* showcase */
+.navbar{
+    display: none!important;
+}
+
+.showcase{
+    background:rgba(0,0,0,0.8)url(images/graduation-caps.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+
+}
+
+.showcase1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.showcase1 h1{
+    font-size: 1.7rem;
+    margin: 30px 25px;
+    color: #fff;
+    font-family: "quicksand"  ;
+
+
+    
+}
+
+.showcase1 .nav-links ul{
+    display: flex;
+}
+
+.showcase1 .nav-links ul li{
+    list-style: none;
+    margin: 30px 0px;
+    padding: 0 10px;
+    
+}
+.showcase1 .nav-links ul li a{
+    text-transform:uppercase;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #EEE8AA;
+
+}
+.action{
+    border-bottom: 1px solid whitesmoke;
+}
+
+.showcase1 .nav-links ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.showcase-display{
+  z-index: 3;
+  color: #f5fffa67;
+  padding: 20px 0;
+  margin: 130px;
+
+}
+
+.showcase-text h2{
+    padding: 5px 10px;
+}
+
+.showcase-text h3{
+    padding: 5px 10px;
+}
+
+.showcase-button a{
+    display: inline-block;
+    margin: 5px 10px;
+    width: 100px;
+    height: 100%;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 2px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    transition: 1.5s ease-in-out;
+    font-size: 16px;
+}
+
+.showcase-button a:hover{
+  background:#f5fffa67;
+  color: white;
+}
+/* end of showcase */
+
+/* our programs section */
+ .programs{
+    background: #ffff;
+    width: 100%;
+    padding: 20px 40px;
+    
+
+ }
+
+ .programs h2{
+    text-align: center;
+ }
+ .programs .div1{
+    background: rgba(0,0,0,0.7);
+    width: 200px;
+    height: 2px;
+    margin: 0 auto;
+ }
+
+ .grid-content{
+    display: grid;
+    padding: 20px 20px;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+
+ }
+
+ .grid-content  a{
+    display:block;
+    background: seagreen;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 16px;
+    width: 200px;
+    height: 95px;
+    color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: 4px solid lightseagreen;
+    transition: 1s ease-in-out;
+ }
+
+ .grid-content  a:hover{
+    color: white;
+    background: green;
+   
+ }
+/* end of our programs section */
+
+/* our mission section */
+.leftside{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.0)), url(images/registrar-graduation-internal.jpg) center/ cover no-repeat;
+    width: 100%;
+    height: 400px;
+    background-blend-mode: darken;
+   }
+   .rightside{
+    background: seagreen;
+    width:100%;
+    height:400px;
+   }
+   
+   .mission{
+    overflow: hidden;
+    position: relative;
+   }
+
+   .mission .overlay{
+    display: flex;
+    }
+    .rightside{
+        padding: 50px 0;
+    }
+    .rightside p{
+        padding: 10px 30px;
+    }
+
+    .rightside h1{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .rightside span{
+        color: cyan;
+    }
+/* our mission section */
+
+
+
+/* values section */
+    .core-values{
+        display: flex;
+        margin: 20px auto;
+        letter-spacing: 2px;
+    }
+
+    .values h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .values .div1{
+        background: rgba(0,0,0,0.7);
+        width: 200px;
+        height: 2px;
+        margin: 0 auto;
+     }
+      .icons{
+        margin: 10px auto;
+        position: relative ;
+      }
+     .core-values .icons a{
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .icons h1{
+        font-size: 20px;
+        padding: 0 30px;
+        color: darkgray;
+    }
+
+    .icons h2{
+        font-size: 20px;
+        padding: 0 30px;
+        color: darkgreen;
+    }
+
+    .icons i{
+        position: absolute;
+        margin: 5px -25px;
+        font-size: 35px;
+        color: green;
+    }
+    
+/* end values section */
+
+/* start  news section */
+.news{
+    background: #F6F6F6;
+}
+
+.heading{
+    padding-top: 20px;
+}
+
+.heading .div3{
+    width: 150px;
+    height: 2px;
+    background: rgba(0,0,0,0.7);
+    
+    
+}
+.news-items{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: auto;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+
+.news-items .div3{
+    width: 150px;
+    height: 3px;
+    background: rgba(0,0,0,0.3);
+    margin-top: 15px;
+    
+    
+}
+
+.news-items .date h4{
+    font-size: 15px;
+    color: LightSlateGrey;
+    padding: 10px 5px;
+    
+}
+
+.news1 .title a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 800;
+    font-size: 22px;
+    padding: 0 5px;
+
+}
+
+.news1 .news-body p{
+    color: lightslategray;
+    padding: 10px 0;
+    
+}
+
+/* end of news section */
+
+/* events section */
+.events{
+    background: seagreen;
+    overflow: hidden;
+}
+
+.contents{
+    position: absolute;
+    overflow: hidden;
+    margin: 15px 0;
+
+}
+
+.contents .ca-img img{
+    position: relative;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    
+    }
+
+
+
+.event .div3{
+    width: 150px;
+    height: 3px;
+    background: darkgrey;
+    margin-top: 15px;
+    
+}
+
+.event h2{
+    margin: 10px 0;
+    color: darkgray;
+    
+}
+
+.contents .carousel-post p{
+    padding: 10px 0;
+    color: white;
+    font-size: medium;
+    font-weight: 900;
+}
+
+
+.carousel-post .time{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.carousel-post .time span{
+    padding: 0 5px;
+}
+.carousel-post .time .bi{
+    color: white;
+}
+
+.contents .carousel-link a{
+    display: inline-block;
+    text-decoration: none;
+    color: darkgray;
+    padding: 5px 10px;
+    background: #444;
+    text-align: center;
+    font-weight: 800;
+    font-size: 17px;
+    border-radius: 7px;
+    letter-spacing: 2px; 
+    transition: 2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.contents .carousel-link i{
+    font-weight: 800;
+    padding-top: 2px;
+}
+
+.contents .carousel-link a:hover{
+    background: rgba(0,0,0,0.6);
+}
+
+
+/* end of events section */
+
+
+/* discover section */
+
+    .discover{
+        background: linear-gradient(rgba(2,100,0,0.6), rgba(0,0,0,0.8)), url(images/photo-1616512659455-111d3367649f.jpg) center/ cover no-repeat;
+        width: 100%;
+        height: 500px;
+        overflow: visible;
+    }
+    .discover h2{
+        padding: 10px 0;
+        color: white;
+    }
+
+    .discover h3{
+        padding: 10px 0;
+        font-size: 25px;
+        color: white;
+    }
+    .container-items{
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+        gap: 20px;
+    }
+
+    .card1{
+        background: #fff;
+        width: 260px;
+        height: 450px;
+        margin-top: 50px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+        padding: 0 10px;
+        transition: 0.6s ease;
+
+    }
+
+    .card1 .card-image img{
+        width: 100%;
+        height: 200px;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    .card1 .card-tit a{
+        text-decoration: none;
+        margin: 0 auto;
+        font-weight:bold;
+        font-size: 17px;
+        color: green;
+    }
+
+    .card1 .card-post p{
+        padding: 5px 0;
+    }
+
+    .card1 .card-button a{
+        display: block;
+        width: 100%;
+        height: 40px;
+        padding: 10px 10px;
+        background: #000;
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+    .card1:hover{
+    background: linear-gradient(rgba(2,100,0,0.6), rgba(40, 40, 40, 0.8));
+    color: white;
+    border: 1px solid white;
+    }
+/* end of discover section */
+
+/* start of news letter section */
+    .news-letter{
+        background: seagreen;
+        max-height: 100px;
+        overflow: hidden;
+        }
+
+    .letter{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 10px; 
+    }
+
+    .letter .letter1 input{
+        color: black;
+        width: 500px;
+        background-color: white;
+        border: none;
+        outline: none;
+    
+    }
+
+    .letter .letter1 input:hover{
+        outline: none;
+        border: none;
+    }
+
+    .letter p{
+        padding: 5px 0;
+        font-size: 25px;
+        color: white;
+        margin: 5px 0;
+    }
+    .letter1{
+        display: flex;
+    }
+
+    .letter1 a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        background: black;
+        padding:7px 7px;
+        margin: 0 5px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .letter1 a:hover{
+        color: white;
+    }
+/* end of news letter section */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 401px) and (max-width : 725px) {
+    .navbar{
+        display: block!important;
+        background: rgba(0,0,0,1);
+
+    }
+    .canvas{
+        background: rgba(0,0,0,0.7);
+    }
+
+    
+    .canvas .nav-item a{
+        padding-left: 30px;
+        color: #000;
+    }
+    .title{
+        display: flex;
+        justify-content:space-between ;
+        color: #fff;
+
+    }
+    
+
+
+    .title .navbar-brand{
+     color: #fff;
+    }
+
+    .title .navbar-brand:hover{
+        color: #ffff;
+
+    }
+
+
+    .showcase1{
+        display: none;
+    }
+
+    /* showcase main area */
+
+    .showcase-display{
+        z-index: 3;
+        color: #f5fffa67;
+        padding: 25px 0;
+        margin: 50px auto;
+        overflow: visible;
+      
+      }
+      .showcase-text h2{
+          padding: 10px 10px;
+      }
+      
+      .showcase-text h3{
+          padding: 10px 10px;
+      }
+
+      
+      .showcase-button a{
+          display: inline-block;
+          width: 100px;
+          height: 100%;
+          border: 1px solid whitesmoke;
+          border-radius: 3px;
+          text-decoration: none;
+          padding: 2px;
+          text-align: center;
+          letter-spacing: 3px;
+          color: whitesmoke;
+          transition: 1.5s ease-in-out;
+      }
+      
+      .showcase-button a:hover{
+        background:#f5fffa67;
+        color: white;
+      }
+
+
+
+    /* showcase main area end */
+
+
+    /* grid-section */
+    .grid-content{
+        display: grid;
+        padding: 20px 20px;
+        grid-template-columns: auto;
+        gap: 40px;
+        margin: 30px 0;
+     }
+     
+    /* end of grid section */
+
+     /* our mission section */
+
+     .leftside{
+        display: none;
+     }
+
+     /* end of our mission section */
+
+     /* values */
+        .core-values{
+            flex-direction: column;
+            align-content: center;
+        }
+
+         
+     /* end of values */
+
+     /* news section */
+
+     .news-items{
+        grid-template-columns: auto;
+     }
+     /* end of news section */
+
+
+     /* card area */
+     .discover{
+        background: linear-gradient(rgba(2,100,0,0.6), rgba(0,0,0,0.8)), url(images/photo-1616512659455-111d3367649f.jpg) center/ cover no-repeat;
+        width: 100%;
+        height: 1940px;
+        overflow: visible;
+    }
+    
+
+     .container-items{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+        overflow: hidden;
+     }
+    
+     
+    .card1{
+        background: #fff;
+        width: 450px;
+        height: 400px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+        transition: 0.6s ease;
+        
+
+    }
+
+
+     .card1 .card-image img{
+        padding: 10px 10px;
+        width: 400px;
+        height: 200px;
+        
+    }
+
+    .card1 .card-tit a{
+        padding: 0 10px;
+    }
+
+
+    .card1 .card-post p{
+        padding: 10px 10px;
+    }
+    
+     /* end card area */
+
+
+        /* news-letter area */
+     .news-letter{
+        background: seagreen;
+        max-height: 150px;
+        overflow: hidden;
+        }
+
+        .letter .letter1 input{
+            color: black;
+            width: 250px;
+            background-color: white;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+        
+        }
+
+        .letter{
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            gap: 1px;
+            padding: 25px 0;
+        }
+
+        .letter p{
+            font-size: 25px;
+        }
+        
+        
+
+    /* news letr section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
