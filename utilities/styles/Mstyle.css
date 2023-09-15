@@ -16,7 +16,7 @@
 }
 
 .container-fluid h1{
-    font-size: 25px;
+    font-size: 22px;
 
 }
 
@@ -62,10 +62,13 @@
 
 
 .showcase-display{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%,-50%);
   z-index: 3;
   color: #f5fffa67;
-  padding:  80px 0;
-  margin: 75px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -789,7 +792,7 @@
         
       }
       .showcase-text h2{
-          padding: 10px 10px;
+          padding: 10px 5px;
           font-size: 35px;
       }
       
@@ -803,7 +806,7 @@
           display: block;
           width: 100px;
           height: 100%;
-          margin: 10px 0;
+          margin-top: 20px;
           border: 2px solid lightseagreen;
           border-radius: 3px;
           text-decoration: none;
