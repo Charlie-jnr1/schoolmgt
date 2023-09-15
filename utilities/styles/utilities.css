@@ -7,7 +7,7 @@
 }
 
 .background{ 
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../../images/grad1.jpg) center/ cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(../../images/grad1.jpg) center/ cover no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
@@ -18,12 +18,13 @@
     
 
 }
+/* sign up form starts */
 
 .form1{
     position:absolute;
     top: 50%;
     left: 50%;
-    height: 550px;
+    height: 570px;
     width: 350px;
     background: linear-gradient(rgb(2, 100, 0), rgba(8, 8, 213, 0.241));
     color: white;
@@ -66,9 +67,67 @@
     color: white;
     border-radius: 5px;
     font-weight: bold;
+    margin: 10px 0;
 }
 
 .form1 .forminput a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+/* login form starts */
+.form2{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 350px;
+    background: linear-gradient(rgb(2, 100, 0), rgba(8, 8, 213, 0.241));
+    color: white;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+
+}
+
+.forminput1{
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 20px;
+
+}
+
+ .form2 .forminput1 input{
+    outline: none;
+    border: none;
+    width: 300px;
+    
+}
+.phrase100{
+    padding-top: 20px;
+
+}
+.form2 .phrase1 h1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.form2 .phrase1 p{
+    margin: 0 20px;
+}
+
+.form2 .forminput1 button{
+    outline: none;
+    border: none;
+    background: green;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.form2 .forminput1 a{
     text-decoration: none;
     color: green;
     font-weight: bold;
