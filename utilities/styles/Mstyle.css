@@ -11,6 +11,20 @@
     max-width: 1200px;
     margin: 0 30px;
 }
+.offcanvas-header h5 i{
+    color: green;
+}
+
+.container-fluid h1{
+    font-size: 25px;
+
+}
+
+.container-fluid h1 i{
+    color: green;
+    
+}
+
 
 .navbar{
     padding: 0 20px!important;
