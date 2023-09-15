@@ -793,12 +793,12 @@
       }
       .showcase-text h2{
           padding: 10px 5px;
-          font-size: 35px;
+          font-size: 30px;
       }
       
       .showcase-text h3{
           padding: 10px 10px;
-          font-size: 35px;
+          font-size: 30px;
       }
 
       
@@ -806,7 +806,7 @@
           display: block;
           width: 100px;
           height: 100%;
-          margin-top: 20px;
+          margin-bottom: 20px;
           border: 2px solid lightseagreen;
           border-radius: 3px;
           text-decoration: none;
