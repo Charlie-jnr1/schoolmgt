@@ -24,7 +24,7 @@
     top: 50%;
     left: 50%;
     height: 550px;
-    width: 400px;
+    width: 350px;
     background: linear-gradient(rgb(2, 100, 0), rgba(8, 8, 213, 0.241));
     color: white;
     transform: translate(-50%,-50%);
@@ -41,7 +41,7 @@
  .form1 .forminput input{
     outline: none;
     border: none;
-    width: 350px;
+    width: 300px;
     
 }
 .phrase{
