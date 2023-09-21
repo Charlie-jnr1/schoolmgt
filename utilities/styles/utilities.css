@@ -137,7 +137,7 @@
 
 .container2{
     width: 100%;
-    height: 400px;
+
 }
 
 .welcome {
@@ -154,7 +154,7 @@
 
 /* Profile part */
 .container3{
-    
+    width: 230px;
 }
 
 .upload{
@@ -168,16 +168,17 @@
 
 .upload img{
     position: absolute;
-    height: 100px;
-    width: 100px;
-    bottom: 250px;
+    height: 130px;
+    width: 130px;
+    bottom: 220px;
 }
 
 
 .upload .round{
     position: absolute;
-    bottom: 250px;
+    bottom: 226px;
     overflow: hidden;
+    line-height: 33px;
 
 }
 
@@ -190,3 +191,17 @@
 
 }
 
+.upload .round i{
+    margin: 20px 70px;
+    background: skyblue;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+/* demographics */
+.demograph{
+    
+}
+
+.demograph h1{
+    margin-bottom: 30px;
+}
