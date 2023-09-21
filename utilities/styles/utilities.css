@@ -140,9 +140,6 @@
 
 }
 
-.welcome {
-    height: 400px;
-}
 
 .welcome h2{
     margin-top: 80px;
@@ -154,7 +151,17 @@
 
 /* Profile part */
 .container3{
-    width: 230px;
+    display: flex;
+    align-content: space-between ;
+}
+
+.flex1{
+    flex: 40%;
+    background: black;
+}
+
+.flex2{
+    flex: 60%;
 }
 
 .upload{
@@ -167,16 +174,14 @@
 }
 
 .upload img{
-    position: absolute;
     height: 130px;
     width: 130px;
-    bottom: 220px;
 }
 
 
 .upload .round{
     position: absolute;
-    bottom: 226px;
+    bottom: 0;
     overflow: hidden;
     line-height: 33px;
 
@@ -191,17 +196,12 @@
 
 }
 
-.upload .round i{
-    margin: 20px 70px;
-    background: skyblue;
-    border-radius: 50%;
-    padding: 5px 5px;
-}
 /* demographics */
 .demograph{
-    
+position: relative
 }
 
 .demograph h1{
-    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
 }
