@@ -154,7 +154,7 @@
 .container3{
     display: flex;
     align-content: space-between;
-    height: 80vh;
+    height: 83vh;
     overflow: hidden;
    
     
@@ -228,7 +228,7 @@
 }
 .demograph .update a{
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 10px 30px;
     background: rgba(181, 101, 101, 0.149);
     border-radius: 10px;
     color: black; 
@@ -248,4 +248,29 @@
     background-color: #00b4ff;
     padding: 5px 5px;
    
+}
+
+.feespaid{
+    background: rgba(0, 128, 68, 0.164);
+    width: 260px;
+    height: 150px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.feespaid i{
+    font-size: 30px;
+    padding: 10px 10px;
+}
+.feespaid h1{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.feespaid p{
+    font-size: 20px;
+    padding: 10px 20px;
+
 }
