@@ -245,32 +245,111 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;
     font-weight: bold;
-    background-color: #00b4ff;
+    background-color: whitesmoke;
     padding: 5px 5px;
    
 }
+/* flex2 section */
 
+.activities{
+    display: flex;
+
+}
 .feespaid{
-    background: rgba(0, 128, 68, 0.164);
+    background: #deebff;
     width: 260px;
     height: 150px;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
     border-radius: 10px;
-    margin: 20px 20px;
+    margin: 15px 20px;
 }
 
 .feespaid i{
-    font-size: 30px;
-    padding: 10px 10px;
+    font-size: 33px;
+    padding: 10px 20px;
+    color: #4682b4;
 }
 .feespaid h1{
-    font-size: 19px;
+    font-size: 15px;
     font-weight: bold;
     padding: 10px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4682b4;
+
 }
 
 .feespaid p{
-    font-size: 20px;
+    font-size: 19px;
     padding: 10px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4682b4;
+
+
+}
+
+
+
+.coursereg{
+    background: whitesmoke;
+    width: 260px;
+    height: 150px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 15px 20px;
+}
+
+.coursereg i{
+    font-size: 33px;
+    padding: 10px 20px;
+    color: darkgreen;
+}
+.coursereg h1{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+
+}
+
+.coursereg p{
+    font-size: 19px;
+    padding: 10px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+
+
+}
+
+
+.results{
+    background: whitesmoke;
+    width: 260px;
+    height: 150px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 15px 20px;
+}
+
+.results i{
+    font-size: 33px;
+    padding: 10px 20px;
+    color: grey;
+}
+.results h1{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+
+}
+
+.results p{
+    font-size: 19px;
+    padding: 10px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+
 
 }
