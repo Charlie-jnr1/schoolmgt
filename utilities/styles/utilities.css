@@ -353,3 +353,27 @@
 
 
 }
+
+/* activities section */
+.Activities h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.log{
+    background: mintcream;
+    width: 93%;
+    height: 100%;
+    border-radius: 5px;;
+}
+
+.log .check{
+    padding: 5px 20px;
+}
+.log .check a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    font-family:'Trebuchet MS','Lucida Sans', Arial, sans-serif;
+}
