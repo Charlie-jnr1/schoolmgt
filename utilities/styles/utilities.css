@@ -167,7 +167,7 @@
 
 .flex2{
     flex: 75%;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .upload{
@@ -387,10 +387,122 @@
     padding: 0 10px;
 }
 
+.check h3{
+    font-size: 12px;
+    color:rgba(0,0,0,0.5);
+    padding: 0 10px;
+    font-weight: bold;
+}
+
 
 .Activities h2{
     font-size: 15px;
     font-weight: bold;
     padding: 5px 10px;
+}
+
+/* course registration section */
+.register{
+    margin: 80px 30px;
+    color: black;
+}
+
+.register table{
+    width: 100%;
+    height: 30%;
+}
+ .register h2{
+    width: 100%;
+    background: #abc7c7	;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6)
+}
+table tr {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+table th{
+    background: #9cabb8	;
+    color:rgba(0,0,0,0.6);
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family:'Trebuchet MS','Lucida Sans', Arial, sans-serif;
+
+}
+
+table td{
+    padding: 15px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media only screen and (max-width: 1200px){
+    .flex1{
+        display: none;
+    }
+    .flex2{
+        overflow: visible;
+    }
+
+    .container3{
+
+        overflow: visible;
+        
+    }
+    
+
+    .activities{
+        flex-direction: column;
+        align-items: center;       
+        
+    }
+
+    .navbar{
+        margin: 20px 0;
+    }
+    
+    .log{
+        background: mintcream;
+        width: 93%;
+        height: 100%;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    .Activities h2{
+        padding: 10px 15px;
+    }
+    
+    
 }
 
