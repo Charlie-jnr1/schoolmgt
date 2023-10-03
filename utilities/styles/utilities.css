@@ -407,6 +407,10 @@
     color: black;
 }
 
+.register h1{
+    font-size: 22px;
+}
+
 .register table{
     width: 100%;
     height: 30%;
@@ -426,12 +430,12 @@ table tr {
   }
 table th{
     background: #9cabb8	;
-    color:rgba(0,0,0,0.6);
+    color:rgba(0,0,0,0.9);
     padding: 5px 10px;
     font-size: 13px;
     font-weight: bold;
     font-family:'Trebuchet MS','Lucida Sans', Arial, sans-serif;
-    font-weight: 200;
+    font-weight: bold;
 
 }
 
@@ -441,23 +445,124 @@ table td{
 
 
 }
-  
-/* details part */
+
+/* DEMOGRAPHICS SECTION */
+.details{
+    padding:70px 10px;
+}
+
+.detail1 img{
+    width: 250px;
+}
+
 
 .details{
-    padding:30px 10px;
+    display: flex;
+}
+
+
+.detail2{
+    flex: 50%;
+    padding: 0 70px;
+}
+
+.detail3{
+    flex: 40%;
+}
+
+.demo1{
+    display: flex;
+}
+
+
+.demo1 h1{
+    font-size: 15px;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.demo1 p{
+   
+}
+
+/* approval page */
+
+
+.signings{
+    margin: 10px 40px;
+    display: flex;
+    text-align: center;
+}
+.dignies1{
+    flex: 50%;
+}
+
+.dignies2{
+    flex: 50%;
+}
+.signings .dignies1 h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0;
+}
+
+.signings .dignies1 p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0;
+}
+
+.signings .dignies2 h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0;
+}
+
+.signings .dignies2 p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0;
 }
 
 
 
 
+.signings1{
+    margin: 100px 40px;
+    display: flex;
+    text-align: center;
+}
+.dignies11{
+    flex: 50%;
+}
 
+.dignies12{
+    flex: 50%;
+}
+.signings1 .dignies11 h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0;
+}
 
+.signings1 .dignies11 p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0;
+}
 
+.signings1 .dignies12 h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0;
+}
 
-
-
-
+.signings1 .dignies12 p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0;
+}
 
 
 
