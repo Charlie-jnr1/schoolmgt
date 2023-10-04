@@ -482,9 +482,6 @@ table td{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.demo1 p{
-   
-}
 
 /* approval page */
 
@@ -508,7 +505,7 @@ table td{
 }
 
 .signings .dignies1 p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0 0;
 }
@@ -520,7 +517,7 @@ table td{
 }
 
 .signings .dignies2 p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0 0;
 }
@@ -547,7 +544,7 @@ table td{
 }
 
 .signings1 .dignies11 p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0 0;
 }
@@ -559,10 +556,44 @@ table td{
 }
 
 .signings1 .dignies12 p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0 0;
 }
+
+hr{
+    margin: 10px 35px;
+
+}
+
+.coded{
+    text-align: center;
+}
+
+.text p{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
