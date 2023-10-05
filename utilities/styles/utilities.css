@@ -405,6 +405,7 @@
 .register{
     margin: 80px 30px;
     color: black;
+    max-width: 100vw;
 }
 
 .register h1{
@@ -412,18 +413,18 @@
 }
 
 .register table{
-    width: 100%;
+    width: 1210px;
     height: 30%;
 }
  .register h2{
-    width: 100%;
+    width: 1210px;
     background: #abc7c7	;
     margin: 0;
     text-align: center;
     padding: 10px 0;
     font-size: 22px;
     font-weight: bold;
-    color: rgba(0,0,0,0.6)
+    color: rgba(0,0,0,0.6);
 }
 table tr {
     border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -577,6 +578,20 @@ hr{
 
 }
 
+/* button */
+
+.button{
+    text-align: right;
+    padding: 20px 100px;
+}
+
+.button input{
+    padding: 3px 10px;
+    background: skyblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
 
 
 
@@ -643,7 +658,6 @@ hr{
     .Activities h2{
         padding: 10px 15px;
     }
-    
     
 }
 
