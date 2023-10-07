@@ -740,6 +740,7 @@ table td{
     
     .register1 h1{
         font-size: 22px;
+        width: 100%;
     }
     
     .register1 table{
