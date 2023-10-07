@@ -586,20 +586,21 @@ hr{
 
 .button{
     text-align: right;
-    padding: 20px 100px;
+    padding: 20px 30px;
 }
 
 .button input{
-    padding: 5px 20px;
+    padding: 5px 30px;
     background: skyblue;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 2px solid rgba(0,0,0,0.2);
+    border: 3px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
 
 /* Regsitration Page */
 
 .register1{
-    margin: 80px 30px;
+    margin: 100px 30px;
     color: black;
     max-width: 100vw;
 }
@@ -607,6 +608,7 @@ hr{
 .register1 h1{
     font-size: 22px;
     width: 100%;
+    margin: 50px 0;
 }
 
 .register1 table{
@@ -720,19 +722,6 @@ table td{
     .detail2{
         justify-self: right;
     }
-
-    .button{
-        text-align: right;
-        padding: 15px 20px;
-    }
-    
-    .button input{
-        padding: 3px 10px;
-        background: skyblue;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: 1px solid rgba(0,0,0,0.2);
-    }
-    
     /* register course section */
     .register1{
         margin: 80px 20px;
