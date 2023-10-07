@@ -590,10 +590,10 @@ hr{
 }
 
 .button input{
-    padding: 3px 10px;
+    padding: 5px 20px;
     background: skyblue;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid rgba(0,0,0,0.2);
+    border: 2px solid rgba(0,0,0,0.2);
 }
 
 /* Regsitration Page */
