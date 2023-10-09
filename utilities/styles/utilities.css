@@ -649,13 +649,14 @@ table td{
 
 /* school fees section */
 
-.container1{
+.container10{
     margin: 0 160px;
+    overflow: visible;
 }
 
 .register2{
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     color: rgba(0,0,0,0.8);
     font-weight: bold;
     font-family: Georgia ;
@@ -676,17 +677,18 @@ table td{
 
 .inputin{
     width: 100%;
-    height: 400px;
+    height: 410px;
     background-color: mintcream;
     opacity: 0.9;
-    overflow: hidden;
-    border: 2px Solid rgba(0,0,0,0.1);  
+    overflow: visible;
+    border: 2px Solid rgba(0,0,0,0.1); 
+    padding: 5px 0px; 
 }
 
 .inputin h2{
     width: 100%;
     border-bottom: 1px solid rgba(0,0,0,0.1);
-    padding: 15px 10px;
+    padding: 5px 15px;
     font-weight: bold;
     font-size: 15px;
 
@@ -698,7 +700,7 @@ table td{
     grid-template-rows: 30%  70%;
     justify-content: center;
     align-items: center;
-    padding: 10px 15px;
+    padding: 20px 15px;
 }
 
 .input1 h1{
@@ -708,14 +710,39 @@ table td{
     font-size: 15px;
     font-weight: bold;
 }
-.input1 select{
-    margin: 10px 50px;
-}
+
+
 
 .input1 select{
     width: 600px;
     height: 40px;
+    margin: 10px 15px;
+    padding: 0 15px;
 }
+
+.button1{
+    text-align: right;
+    padding: 10px 40px;
+}
+
+.button1 input{
+    padding: 4px 5px;
+    background: green;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+
+}
+ 
+.input1:nth-child(3){
+    border-bottom: 2px solid rgba(0,0,0,0.2); 
+}
+/* .line{
+    border-top: 2px solid rgba(0,0,0,0.2);
+    width: 100%;
+} */
 
 
 
@@ -849,9 +876,37 @@ table td{
         width: 100%;
     }
     
-    .register1 table{
+    /* pay school fees section */
+
+
+    .inputin{
         width: 100%;
-        height: 30%;
+        height: 420px;
+        background-color: mintcream;
+        opacity: 0.9;
+        overflow: visible;
+        border: 2px Solid rgba(0,0,0,0.1); 
     }
+
+    .container10{
+        margin: 0 5px;
+    }
+
+    .input1{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .input1 select{
+        margin: 0;
+        padding: 0;
+    }
+
+    .input1 select{
+        width: 425px;
+        height: 40px;
+        margin: 0 0;
+    }
+
    
 }
