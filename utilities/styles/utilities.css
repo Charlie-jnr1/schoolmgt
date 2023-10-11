@@ -834,7 +834,7 @@ table td{
     .register1 table{
         width: 100%;
         height: 30%;
-        overflow: visible;
+        overflow-x: scroll;
     }
     
 
@@ -903,18 +903,6 @@ table td{
         padding: 0 0;
 
     }
-
-    .register1 h1{
-        font-size: 22px;
-        width: 600px;
-    }
-    
-    .register1 table{
-        width: 500px!important;
-        height: 30%;
-        overflow: visible;
-    }
-    
 
 
    
