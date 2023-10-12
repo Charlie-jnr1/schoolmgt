@@ -834,7 +834,7 @@ table td{
         font-size: 22px;
         width: 100%;
         overflow: hidden;
-        padding-top: 30px;
+        padding-top: 40px;
     }
 
     .register h2{
@@ -965,10 +965,6 @@ table td{
     .table th{
         padding: 0;
         font-size: 8px;
-    }
-
-    .register1 h1{
-        padding-top: 30px;
     }
 
     
