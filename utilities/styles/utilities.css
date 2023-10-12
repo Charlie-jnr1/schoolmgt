@@ -943,13 +943,14 @@ table td{
     }
 
     .register1 h2{
-        width: auto;
+        width: 100%;
+        font-size: 15px;
     }
 
 
     table tr {
         border-bottom: 1px solid rgba(0,0,0,0.2);
-        font-size: 8px;
+        font-size: 10px;
         padding: 10px 10px;
         text-align: center;
       }
