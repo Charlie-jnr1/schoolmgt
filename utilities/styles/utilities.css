@@ -869,21 +869,6 @@ table td{
     
     }
 
-    /* .button{
-        text-align: right;
-        padding: 20px 5px;
-        margin: 0;
-    }
-    
-    .button input{
-        background: skyblue;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        border: 3px solid rgba(0,0,0,0.2);
-        border-radius: 5px;
-    }
-     */
-    
-    /* end of regsiter page section */
     
     
 }
@@ -967,6 +952,20 @@ table td{
         font-size: 8px;
     }
 
+
+    .button{
+        text-align: right;
+        padding: 20px 5px;
+    }
+    
+    .button input{
+        padding: 3px 15px;
+        background: skyblue;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 3px solid rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+    
     
 
 
