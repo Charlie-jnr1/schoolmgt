@@ -959,7 +959,7 @@ table td{
     }
     
     .button input{
-        padding: 0 10px;
+        padding: 0 9px;
         background: skyblue;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         border: 3px solid rgba(0,0,0,0.2);
