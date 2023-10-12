@@ -834,6 +834,7 @@ table td{
         font-size: 22px;
         width: 100%;
         overflow: hidden;
+        padding-top: 30px;
     }
 
     .register h2{
@@ -933,7 +934,7 @@ table td{
 
     /* course regsitration section */
     .register1{
-        margin-top: 30px;
+        margin-top: 25px;
         overflow: hidden;
     }
 
