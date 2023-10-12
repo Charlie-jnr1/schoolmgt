@@ -600,6 +600,10 @@ hr{
 
 /* Regsitration Page */
 
+.regsitration1{
+    overflow: visible;
+}
+
 .register1{
     margin: 100px 30px;
     color: black;
@@ -823,18 +827,17 @@ table td{
     .register1{
         margin: 0;
         color: black;
-        overflow: visible;
+        overflow: hidden;
     }
     
     .register1 h1{
         font-size: 22px;
-        text-align: center;
         width: 100%;
         overflow: hidden;
     }
 
     .register h2{
-        margin: 0;
+        width: 100%;
     }
     
     .register1 table{
@@ -888,7 +891,7 @@ table td{
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
     .register1{
         margin: 80px 10px;
         color: black;
@@ -927,6 +930,38 @@ table td{
         padding: 0 0;
 
     }
+
+    /* course regsitration section */
+    .register1{
+        overflow: hidden;
+    }
+
+    .register1 table{
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .register1 h2{
+        width: auto;
+    }
+
+
+    table tr {
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+      }
+    table th{
+        padding: 5px 3px;
+       
+    }
+    
+    table td{
+        padding: 15px 2px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 8px;
+    
+    
+    }
+
 
 
         
