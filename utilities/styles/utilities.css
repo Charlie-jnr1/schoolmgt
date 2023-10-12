@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Raleway:wght@100&display=swap');
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .showcases{
     background: black;
     width: 100%;
@@ -465,10 +470,6 @@ table td{
 }
 
 
-.detail2{
-    
-}
-
 .detail3{
     flex: 40%;
 }
@@ -602,7 +603,6 @@ hr{
 .register1{
     margin: 100px 30px;
     color: black;
-    max-width: 100vw;
 }
 
 .register1 h1{
@@ -821,20 +821,26 @@ table td{
     }
     /* register course section */
     .register1{
-        margin: 80px 20px;
+        margin: 0;
         color: black;
         overflow: visible;
     }
     
     .register1 h1{
         font-size: 22px;
+        text-align: center;
         width: 100%;
+        overflow: hidden;
+    }
+
+    .register h2{
+        margin: 0;
     }
     
     .register1 table{
         width: 100%;
         height: 30%;
-        overflow-x: scroll;
+        overflow: visible;
     }
     
 
@@ -858,11 +864,29 @@ table td{
     
     
     }
+
+    /* .button{
+        text-align: right;
+        padding: 20px 5px;
+        margin: 0;
+    }
+    
+    .button input{
+        background: skyblue;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: 3px solid rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+     */
     
     /* end of regsiter page section */
     
     
 }
+
+
+
+
 
 @media only screen and (max-width: 600px){
     .register1{
@@ -905,5 +929,5 @@ table td{
     }
 
 
-   
+        
 }
